@@ -1,3 +1,17 @@
+## Test the endpoints
+
+The application can be tested locally through localhost on port 3000 using postman
+
+1. Run the application while postman is open
+2. Go to postman and test against the endpoint below with the required property:-
+
+### Endpoints to test
+
+Method        | Endpoint      | Enable a user to: |
+------------- | ------------- | ---------------
+GET  | /v1/sanitize  | Sanitize data  |
+
+
 ## Remove Duplicates From Mock Knack Application Schema
 
 Knack is a no-code platform that includes an online database. Knack users will at times, through unexpected API usage or an unknown bug, corrupt their application schemas. One common issue they may run into is having duplicate fields and/or objects in their application schema. These duplicates cannot be removed by the Knack UI and lead to TypeErrors and other problems.
@@ -49,20 +63,6 @@ d. Start the application
 ```bash
 yarn dev
 ```
-
-
-## Test the endpoints
-
-The application can be tested locally through localhost on port 3000 using postman
-
-1. Run the application while postman is open
-2. Go to postman and test against the endpoint below with the required property:-
-
-### Endpoints to test
-
-Method        | Endpoint      | Enable a user to: |
-------------- | ------------- | ---------------
-GET  | /v1/sanitize  | Sanitize data  |
 
 
 ## Author
