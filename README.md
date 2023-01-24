@@ -3,7 +3,31 @@
 The application can be tested locally through localhost on port 3000 using postman
 
 1. Run the application while postman is open
-2. Go to postman and test against the endpoint below with the required property:-
+2. Go to postman and test against the endpoint below with the required property:
+
+## Installation and Running the Application
+
+Ensure that you have nodejs and npm installed in your computer
+
+a. Clone the github link https://github.com/markeu/knack-assessment
+
+b. Install the project dependencies
+
+```bash
+yarn 
+```
+
+c. Test the application
+
+```bash
+yarn test
+```
+
+d. Start the application
+
+```bash
+yarn dev
+```
 
 ### Endpoints to test
 
@@ -39,30 +63,6 @@ We understand that you are busy and programming projects can take a long time. W
 
 ### How to submit your solution
 - Please send us a zip or a tar of the `node-coding-exercise-master` directory which should include your application
-
-## Installation and Running the Application
-
-Ensure that you have nodejs and npm installed in your computer
-
-a. Unzip the file and 
-
-b. Install the project dependencies
-
-```bash
-yarn 
-```
-
-c. Test the application
-
-```bash
-yarn test
-```
-
-d. Start the application
-
-```bash
-yarn dev
-```
 
 
 ## Author
